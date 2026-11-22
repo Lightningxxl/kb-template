@@ -26,10 +26,10 @@
   - 规则与索引：`AGENTS.md`、`README.md`
   - 公司固定页：`公司概况.md`、`战略.md`、`人员.md`、`运营.md`、`决策记录.md`、`过程记录.md`（及 `holdings/<name>/` 固定页）
   - 项目固定页：`项目简介.md`、`当前状态.md`、`决策记录.md`、`过程记录.md`
-- **时效、事件与产出类文件统一 `YYYY-MM-DD-主题.md`**：
-  - 适用于 `records/asr-recordings/`、`records/written-records/`、`deliverables/` 下的所有 Markdown 文档及按日期归档的子目录（如 `YYYY-MM-DD-主题/`）。
-  - 统一把创建/发生日期 `YYYY-MM-DD` 放在最前，与主题之间用单个 `-` 连接，确保目录内按时间自然排序；不粘连日期（如 `2026-11-22主题.md`），不把日期放在末尾（如 `主题-2026-11-22.md`）。
-  - 实际对外发送的非 Markdown 附件原件（PDF/DOCX/PPTX 等）如需保留原文件名可保留，并在同目录索引说明。
+- **时效、事件与产出类文件统一 `YYYY-MM-DD-主题.ext`**：
+  - 适用于 `records/`、`deliverables/` 下的所有 Markdown 文档、非 Markdown 交付物（PDF、DOCX、PPTX、PNG 等）及按日期归档的子目录（如 `YYYY-MM-DD-主题/`）。
+  - 统一把创建/发生日期 `YYYY-MM-DD` 放在最前，与主题之间用单个 `-` 连接，确保同一目录内按创建时间自然排序；不粘连日期（如 `2026-11-22主题.md`），不把日期放在末尾（如 `主题-2026-11-22.md`）。
+  - 仅在多文件专题包/版本包目录内部（父目录已带日期或按 `v0.1`、`outline.md` 等组件排序）保留包内自然命名。
 
 ## Frontmatter 与链接规则
 
